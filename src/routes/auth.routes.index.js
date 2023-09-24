@@ -24,7 +24,7 @@ router.post('/api/auth/register/', authRegisterCtrl.authRegister)
       .post('/api/auht/register/coordinador',authRegisterCtrl.authRegisterCoordinador)
 
 
-router.post('/api/auth/creo/register', authRegisterCtrl.authRegisterCreo)
-      .get('/api/auth/creo/validate/email/:email', authCtrl.getEmailCreo)      
+// router.post('/api/auth/creo/register', authRegisterCtrl.authRegisterCreo)
+//       .get('/api/auth/creo/validate/email/:email', authCtrl.getEmailCreo)      
 
 module.exports= router
